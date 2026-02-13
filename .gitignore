@@ -1,0 +1,15 @@
+# 1. Heaviest folders (Don't upload these!)
+node_modules/
+frontend/node_modules/
+backend/venv/
+
+# 2. Sensitive API Keys (Keep your Gemini & Llama keys secret)
+.env
+backend/.env
+
+# 3. Build outputs and local caches
+build/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
